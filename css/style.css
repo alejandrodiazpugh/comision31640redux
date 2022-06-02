@@ -4,3 +4,25 @@
     margin: 0;
     object-fit: cover;
 }
+
+.background-hero {
+    background-image: url(../images/hero.jpg);
+    object-fit: contain;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.overlay {
+    background: linear-gradient(
+          rgba(0, 0, 0, 0.5), 
+          rgba(0, 0, 0, 0.5));
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+body {
+    overflow-x: hidden;
+}
