@@ -16,7 +16,9 @@ window.addEventListener("DOMContentLoaded", ()=>{
 
 //input de correo para newsletter
 const btnNewsletter = document.querySelector("#btn-newsletter");
-btnNewsletter.addEventListener("click", () =>{
+
+if(!!btnNewsletter) { // para no mostrar error en páginas donde no exista el elemento.
+    btnNewsletter.addEventListener("click", () =>{
         const correo = document.querySelector("#newsletter").value;
         const validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
         if(validRegex.test(correo)) { //valida el contenido del input
@@ -25,7 +27,10 @@ btnNewsletter.addEventListener("click", () =>{
             return swal("Error", "El correo ingresado no está en el formato correcto", "error");
         }
     })
+}   else {
+    console.log("No hay botón de Newsletter en esta página");
 
+}
 
 
 

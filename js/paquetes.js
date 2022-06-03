@@ -16,7 +16,7 @@ programas.forEach(programa => {
                     <h5 class="card-title">${programa.nombre}</h5>
                     <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                     <h6 class="card-text">$${programa.precio}</h6>
-                    <button class="btn btn-primary btn-agregarACarrito">Agregar a Carrito</button>
+                    <button class="btn btn-dark btn-agregarACarrito">Agregar a Carrito</button>
                 </div>
             </div>`
     document.querySelector(".cardRow").append(cardColumn);

@@ -27,24 +27,26 @@
           </nav>
     </header>
     <main>
-      <div class="container">
+      <div class="container d-flex justify-content-between my-3">
         <h2 class="h2 mt-3">Mi Carrito:</h2>
+        <button class="btn btn-light px-3 btnEliminarTodo">Eliminar Todo</button>
       </div>
       <div class="container">
         <table class="table" id="carritoTabla">
           <thead>
             <tr>
-              <th scope="col">Cantidad</th>
-              <th scope="col">Nombre</th>
-              <th scope="col">Precio</th>
-              <th scope="col">Eliminar</th>
+              <th scope="col" class="text-left">Cantidad</th>
+              <th scope="col" class="text-center">Nombre</th>
+              <th scope="col" class="text-center">Precio Unitario</th>
+              <th scope="col" class="text-center">Precio Total</th>
+              <th scope="col" class="text-right">Eliminar</th>
             </tr>
           </thead>
           <tbody class="carritoCuerpo"></tbody>
         </table>
       </div>
-      
     </main>
+
     <script src="../js/stock.js"></script>
     <script src="../js/script.js"></script>
     <script src="../js/carrito.js"></script>
