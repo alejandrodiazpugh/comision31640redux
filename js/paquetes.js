@@ -6,6 +6,7 @@ window.addEventListener("DOMContentLoaded", ()=>{
 
 const cardSpace = document.querySelector("#cardSpace")
 programas.forEach(programa => {
+    console.log(typeof(programa));
     const cardColumn = document.createElement("div");
     cardColumn.classList.add("col-sm-4");
     cardColumn.classList.add("my-3")
