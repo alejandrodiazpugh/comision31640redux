@@ -1,0 +1,38 @@
+{
+   "usuario1": {
+        "nombre": "Raúl Jiménez",
+        "compra": "Boring But Big",
+        "description": "Toda mi vida intenté ir al gimnasio pero ningún entrenador me convencía. Con este programa, en 5 meses logré aumentar mi masa muscular y bajé 10 kilos",
+        "reseña": "10/10"
+    },
+    "usuario2": {
+        "nombre": "Cesia Ramírez",
+        "compra": "Couch to 5K",
+        "description": "Nunca he podido correr más de un kilometro. Gracias a este programa, la semana pasada corrí mi primer 5K en 30 minutos!!",
+        "reseña": "9/10"
+    },
+    "usuario3": {
+        "nombre": "César Juárez",
+        "compra": "PowerLifting",
+        "description": "Llevo 10 años levantando pesas, y por primera vez en 5 años he podido superar mis récords gracias a este programa",
+        "reseña": "10/10"
+    },
+    "usuario4": {
+        "nombre": "Mercurio Salazar",
+        "compra": "Boxing",
+        "description": "Me ayudó mucho a mejorar mi condición física",
+        "reseña": "8/10"
+    },
+    "usuario5": {
+        "nombre": "Florinda Mesas",
+        "compra": "Crossfit",
+        "description": "Siempre he querido un programa funcional que me ayude a hacer mi primer pullup. La mejor inversión que puedes hacer es tu cuerpo!",
+        "reseña": "9/10"
+    },
+    "usuario6": {
+        "nombre": "María Antonieta de las Nieves",
+        "compra": "Hatha Yoga",
+        "description": "Si bien no es un reemplazo a una clase, me ayudó mucho a mantenerme en condición física en mi vecindad durante la cuarentena",
+        "reseña": "8/10"
+    }
+}

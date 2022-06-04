@@ -36,17 +36,23 @@
           <thead>
             <tr>
               <th scope="col" class="text-left">Cantidad</th>
+              <th scope="col" class="text-left">Clase</th>
               <th scope="col" class="text-center">Nombre</th>
               <th scope="col" class="text-center">Precio Unitario</th>
               <th scope="col" class="text-center">Precio Total</th>
               <th scope="col" class="text-right">Eliminar</th>
             </tr>
           </thead>
-          <tbody class="carritoCuerpo"></tbody>
         </table>
       </div>
+      <div class="container pagarContainer">
+        <div class="row d-flex justify-content-end align-content-center mx-2">
+          <h6 class="text-right mx-5">TOTAL: <span class="totalCarrito"></span></h6>
+          <button class="btn btn-success btnPagar text-hide">Pagar</button>
+        </div>
+      </div>
     </main>
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="../js/stock.js"></script>
     <script src="../js/script.js"></script>
     <script src="../js/carrito.js"></script>
